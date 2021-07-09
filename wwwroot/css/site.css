@@ -1,0 +1,58 @@
+﻿
+
+    body {
+
+    background-color: #080808;
+    margin-bottom: 60px;
+}
+
+.adicionarEmodificar {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #252525;
+    color: #737373;
+}
+
+.btn-primary {
+    font-size: 3vw;
+    position: absolute;
+    top: 34%;
+    left: 40%;
+    color: rgb(255 136 18 / 79%);
+    background-color: #1f1f1f;
+    border-color: #252525;
+    transition: ease-in 100ms;
+}
+    .btn-primary:focus {
+        border-color: none;
+        background-color: #252525;
+        box-shadow: none;
+        border-color: rgb(255 136 18 / 79%);
+    }
+
+    .btn-primary:hover, .btn-primary:active {
+        background-color: #1d1d1d;
+        border-color: #1d1d1d;
+        color: #ff6c00;
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+        background-color: #1d1d1d;
+        border-color: #1d1d1d;
+        color: #ff6c00;
+    }
+.agenda {
+    position: relative;
+}
+
+    .agenda h1 {
+        font-size: 7vw;
+        color: black;
+        position: absolute;
+        font-family: Harrington;
+    }
+.centred {
+    top: 10%;
+    left: 40%;
+}
+

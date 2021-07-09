@@ -1,0 +1,73 @@
+﻿
+body {
+
+    background-color: #080808;
+    margin-bottom: 60px;
+}
+
+
+.adicionarEmodificar {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #252525;
+    color: #737373;
+    margin-top: 100px;
+}
+
+.form-control {
+    background-color: #252525;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: rgb(206, 212, 218);
+    border-bottom-style: solid;
+}
+
+    .form-control:focus, 
+    .btn-primary:focus {
+        border-color: none;
+        background-color: #252525;
+        box-shadow: none;
+        border-color: rgb(255 136 18 / 79%);
+    }
+
+.btn-primary {
+    color: rgb(255 136 18 / 79%);
+    background-color: #1f1f1f;
+    border-color: #252525;
+    transition: ease-in 100ms;
+}
+
+    .btn-primary:hover, .btn-primary:active{
+        background-color: #1d1d1d;
+        border-color: #1d1d1d;
+        color: #ff6c00;
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+         box-shadow: none; 
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+        color: rgb(255 136 18 / 79%);
+        background-color: #252525;
+        border-color: #252525;
+    }
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+.table th {
+   color: rgb(255 136 18 / 79%);
+   border: none;
+}
+.table td{
+    color: #737373;
+}
+    .table thead th {
+        
+        border-bottom: none;
+    }
+.text-funcao {
+    color: rgb(255 136 18 / 79%);
+}

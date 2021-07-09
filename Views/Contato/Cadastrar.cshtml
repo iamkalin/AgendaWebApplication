@@ -1,0 +1,35 @@
+﻿@model WebApplication1.Models.Contato
+@{
+    ViewData["Title"] = "Cadastrar";
+    <link href="~/css/adicionarEmodificar.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="container">
+    <div class="row">
+        <div class="adicionarEmodificar col-12  col-lg-8 mx-auto ">
+            <h1 class="text-center text-funcao">CADASTRAR</h1>
+            <form method="post"  action="/contato/cadastrar" >
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" class="form-control" value="@Model.Nome" id="nome" placeholder="Digite o nome">
+                    @Html.ValidationMessage("nome")
+                </div>
+                <div class="form-group">
+                    <label for="Telefone">Telefone</label>
+                    <input type="text" name="telefone" class="form-control" value=" @Model.Telefone" id="Telefone" placeholder="Digite o Telefone">
+                    @Html.ValidationMessage("telefone")
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" class="form-control" value=" @Model.Email" id="Email" placeholder="Digite o Email">
+                    @Html.ValidationMessage("email")
+                </div>
+                <div class="row">
+                    <button type="submit" class=" col-6 btn btn-primary">Salvar</button> <a href="/contato/" class="col-6 btn btn-primary"> Voltar</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
